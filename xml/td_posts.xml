@@ -1,27 +1,19 @@
 <?xml version="1.0"?>
 <posts>
-        <table name="wp_posts">
-            <column name="ID">437</column>
+
+           <table name="wp_posts">
+            <column name="ID">444</column>
             <column name="post_author">1</column>
             <column name="post_date">2019-02-14 08:14:55</column>
             <column name="post_date_gmt">2019-02-14 08:14:55</column>
-            <column name="post_content">The term SEO refers to Search Engine Optimization. It is one of the best movement of getting natural or organic visitors in your site via multiple search engines. There are various attitudes to SEO such as words on your web page or the approach other sites link on the web.  we can also say that SEO ensures that your website is structured in a policy that different search engines can understand.
-
-The main objective of SEO is to increase the number of visitors to a website by achieving a high-ranking or let's say the top-10 place in the search results like Google, Bing, Yahoo, and others. (Top 10 because Search Engine default shows the top 10 relevant websites on the basis if keywords). It is undeniable that various social media can give you general traffics or views to your website but search engines are the primary or first choice of internet users it does not matter whether your website consists of products, information, services or anything. Search engines are different because they provide targeted traffic or viewers. If the user doesn't get redirected to your web page from SEO than it is a huge loss to you by not driving traffic to your site.
-
-Technology has advanced along the way but that doesn’t mean they don't need any help. Search Engines always tries to improve their algorithm to slide the web more profoundly and rebound better quality results to users. But there are various limits of SEO and if the use of the right SEO can give you huge numbers of visitors and it can help you to boom your business and can get your attention. And if you go in another wrong way that your website can get lost in the deep search results among millions of website.
-
-Furthermore, to making content accessible to search engines, SEO also assists to boost rankings so that content will be placed where users/searchers will find it or get access very easily. The Internet is becoming competitive rapidly and those individual or company who perform SEO will have the upper hand in visitors and customers.
-
-It is not that SEO is easy but many people can easily perform the basics SEO. It will take time to to get good in SEO but little education on this topic can make a huge difference. People can learn SEO on a different website with free of cost. If you learn SEO with full of dedication then in no time you can be professional SEO experts.
-There might be SEO experts in office but the complexity of website is extreme than you may want to hire a highly experienced SEO guru for your project. Some companies practice highly specialized SEO while others take a broader and more general approach.</column>
-            <column name="post_title">SEO for Business</column>
+            <column name="post_content">Content of the post</column>
+            <column name="post_title">First Post</column>
             <column name="post_excerpt"></column>
             <column name="post_status">publish</column>
             <column name="comment_status">open</column>
             <column name="ping_status">open</column>
             <column name="post_password"></column>
-            <column name="post_name">seo-for-business</column>
+            <column name="post_name">first-post</column>
             <column name="to_ping"></column>
             <column name="pinged"></column>
             <column name="post_modified">2019-02-14 08:18:05</column>
@@ -34,7 +26,7 @@ There might be SEO experts in office but the complexity of website is extreme th
             <column name="comment_count">0</column>
         </table>
 
-           <table name="wp_posts">
+            <table name="wp_posts">
             <column name="ID">444</column>
             <column name="post_author">1</column>
             <column name="post_date">2019-02-14 08:14:55</column>
