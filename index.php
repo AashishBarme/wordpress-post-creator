@@ -7,7 +7,7 @@
  <body> 
     <div class="container">
       <div class="row">
-            <form action="output.php" method="POST" enctype="multipart/form-data">
+            <form action="src\Inc\Output.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="xmlfile">XML File </label>
                 <input type="file" name="xmldata" class="form-control-file" id="xmlfile">
