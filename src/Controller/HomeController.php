@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-class HomeController
+class HomeController extends BaseController
 {
     public function __construct()
     {
@@ -11,6 +11,7 @@ class HomeController
 
     public function Execute()
     {
-        echo "Hello World";
+        return $this->View("home");
     }
+
 }
