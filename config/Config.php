@@ -1,7 +1,5 @@
 <?php
 namespace Config;
-
-use Atlas\Pdo\Connection;
 class Config 
 {
     public function __construct()
@@ -11,11 +9,11 @@ class Config
 
     public function Run()
     {
-        $connection = Connection::new(
-            'mysql:host=localhost;dbname=wp_mysite',
-            'root', //username
-            'root' //password
-        );
-        return $connection;
+        $dsn = 'mysql:host=localhost;dbname=wp_mysite';
+        $user = "root";
+        $passwd = "root";
+
+        $pdo = new \PDO($dsn, $user, $passwd);
+        return $pdo;
     }
 }
