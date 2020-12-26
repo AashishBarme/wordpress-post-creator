@@ -1,6 +1,7 @@
 <?php
 namespace Config;
 use App\Controller\HomeController;
+use App\Controller\OutputController;
 
 class Routes
 {
@@ -16,7 +17,7 @@ class Routes
                 new HomeController();
                 break;
             case 'output':
-                echo "Output";
+                new OutputController($_FILES['xmldata']['tmp_name']);
                 break;
             default:
                 echo "Nothing Found";

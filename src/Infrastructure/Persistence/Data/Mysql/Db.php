@@ -6,7 +6,7 @@ class Db
     private $_adapter;
     public function __construct()
     {
-        $this->_adapter = new Config(); 
+        $this->_adapter = (new Config)->Run(); 
     }
 
     public function ExecuteCommand($sql,$params=null)
