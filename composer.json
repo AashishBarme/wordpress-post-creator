@@ -1,9 +1,7 @@
 {
     "name": "aashishbarme/wordpress-post-creator",
     "description": "xml to db",
-    "require": {
-        "atlas/pdo": "~1.0"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "App\\": "src",
